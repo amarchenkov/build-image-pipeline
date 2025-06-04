@@ -19,7 +19,7 @@ jobs:
         with:
           push: false
           load: 'true' # If false, image won't be visible on next step
-          tags: my-flow-local-image:latest
+          tags: my-flow-local-image-demo:latest
 
       - name: Run TC scanner
         run: |
